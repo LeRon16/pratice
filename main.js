@@ -3,7 +3,7 @@ new Vue({
   data: {
     message: 'Hello World',
     title: 'Hello'
-  },
+  }
   methods: {
     changeValue: function(event){
       this.message = event.target.value;
